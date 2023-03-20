@@ -1,0 +1,15 @@
+* {
+  margin:0;
+  padding:0;
+}
+
+body {
+   max-height: 100vh;
+   
+}
+
+
+#app {
+  max-height: 100vh;
+  position: relative;
+}

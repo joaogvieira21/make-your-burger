@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "backend": "json-server --watch db/db.json"
+  },
+  "devDependencies": {
+    "nuxt": "^3.3.1"
+  },
+  "dependencies": {
+    "json-server": "^0.17.2"
+  }
+}
